@@ -1,0 +1,47 @@
+  {% extends 'base.html.twig' %}
+
+  {% block content %}
+  
+  <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Chambre Classique</h2>
+                <p class="lead">Profitez de nos chambres classique le temps d'une nuit pour faire une pause.</p>
+            </div>
+            <div class="col-md-5">
+               <img src="{{ asset('upload/chambre1.jpg') }}" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Chambre Confort</h2>
+                <p class="lead">Nos Chambres sont spécialement conçues pour donner pleinement satisfaction.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                 <img src="{{ asset('upload/chambre2.jpg') }}" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Chambre Suite</h2>
+                <p class="lead">Nos suites sont à la fois spacieuse et lumineuse, n'hésitez plus</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{ asset('upload/chambre3.jpg') }}" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    {% endblock %}

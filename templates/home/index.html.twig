@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block carousel %}{% endblock %}
+{% block content %}
+
+ <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{{ asset('upload/chambre2.jpg') }}" class="img-fluid"  alt="">
+                <h2>Chambre</h2>
+                <p>Venez découvrir nos chambres pour votre plus grand confort !</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Découvrir les chambres &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{{ asset('upload/resto22.jpg') }}" class="img-fluid"  alt="">
+                <h2>Restaurant</h2>
+                <p>Nos plats sont confectionnés à la minute par notre chef cuisinier chaque jour.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Voir la carte &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{{ asset('upload/spa25.jpg') }}" class="img-fluid"  alt="">
+                <h2>Spa</h2>
+                <p>Détendez-vous et offrez vous un massage dont vous vous rappellerez longtemps</p>
+                <p><a class="btn btn-secondary" href="#" role="button">Les soins &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        {% endblock %}
+
+      
+
